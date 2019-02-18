@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace MyShope.Core.Models
 {
@@ -14,6 +15,7 @@ namespace MyShope.Core.Models
         {
             this.BasketItems = new List<BasketItem>();
         }
+        
 
     }
 }
