@@ -1,4 +1,5 @@
 ﻿using MyShop.Core.Contracts;
+using MyShop.Services;
 using MyShope.Core.Models;
 using MyShope.Core.ViewModels;
 using System;
@@ -11,6 +12,7 @@ namespace MyShop.WebUI.Controllers
 {
     public class HomeController : Controller
     {
+        
         IRepository<Product> context;
         IRepository<ProductCategory> context2;
 
